@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "217824947081",
+    "firebase_url": "https://arat-54783-default-rtdb.firebaseio.com",
+    "project_id": "arat-54783",
+    "storage_bucket": "arat-54783.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:217824947081:android:ac598eaf1b21eb08be8f58",
+        "android_client_info": {
+          "package_name": "com.zero.android"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOex6mzzgmFdX-L78letkZ_if4Hv4R2Mc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
